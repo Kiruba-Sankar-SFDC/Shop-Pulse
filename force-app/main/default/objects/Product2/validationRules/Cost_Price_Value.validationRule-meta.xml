@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Price_Value</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISBLANK(CostPrice__c )) &amp;&amp;  CostPrice__c  &lt;= 0</errorConditionFormula>
+    <errorDisplayField>CostPrice__c</errorDisplayField>
+    <errorMessage>Make sure that the number entered is not less than 0 (a negative amount)</errorMessage>
+</ValidationRule>

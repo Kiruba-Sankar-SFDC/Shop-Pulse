@@ -1,0 +1,72 @@
+<!-- <template>
+    <lightning-card title="Price Book Entry Table">
+
+        <lightning-layout multiple-rows>
+
+            <lightning-layout-item size="6" padding="around-small">
+                <lightning-combobox name="priceBook" label="Price Book" value={priceBookId}
+                    placeholder="Select Price Book" options={priceBooks}
+                    onchange={handlePriceBookChange}></lightning-combobox>
+            </lightning-layout-item>
+
+            <lightning-layout-item size="6" padding="around-small">
+                <lightning-input type="search" label="Search Product" name="searchInput" class="searchField"
+                    onchange={handleSearch}></lightning-input>
+            </lightning-layout-item>
+
+        </lightning-layout>
+
+        <template if:true={data}>
+            <lightning-datatable columns={columns} data={data} key-field="Id" onrowselection={onselectHandler}
+                onsave={handleSave} draft-values={draftValues} data-key="Id" class="searchedProductsDataTable"
+                onkeydown={handleKeyDown}></lightning-datatable>
+        </template>
+
+    </lightning-card>
+
+    <lightning-card title="Selected Products">
+        <template if:true={selectedRows}>
+            <lightning-datatable columns={selectedColumns} data={selectedRows} key-field="Id"
+                onrowaction={handleRowAction} draft-values={draftValues} onsave={handleSave}></lightning-datatable>
+        </template>
+    </lightning-card>
+
+    <lightning-card title={totalAmount}></lightning-card>
+
+</template> -->
+<template>
+    <lightning-layout multiple-rows="false">
+        <lightning-layout-item size="9">
+            <div class="container">
+                <lightning-card title="Selected Products">
+                    <template if:true={selectedRows}>
+                        <lightning-datatable columns={selectedColumns} data={selectedRows} key-field="Id"
+                            onrowaction={handleRowAction} draft-values={draftValues}
+                            onsave={handleSave}></lightning-datatable>
+                    </template>
+                </lightning-card>
+                <lightning-card title={totalAmount} class="total-amount"></lightning-card>
+            </div>
+        </lightning-layout-item>
+        <lightning-layout-item size="3">
+            <lightning-card title="Price Book Entry Table">
+                <lightning-layout multiple-rows>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <lightning-combobox name="priceBook" label="Price Book" value={priceBookId}
+                            placeholder="Select Price Book" options={priceBooks}
+                            onchange={handlePriceBookChange}></lightning-combobox>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" padding="around-small">
+                        <lightning-input type="search" label="Search Product" name="searchInput" class="searchField"
+                            onchange={handleSearch}></lightning-input>
+                    </lightning-layout-item>
+                </lightning-layout>
+                <template if:true={data}>
+                    <lightning-datatable columns={columns} data={data} key-field="Id" onrowselection={onselectHandler}
+                        onsave={handleSave} draft-values={draftValues} data-key="Id" class="searchedProductsDataTable"
+                        onkeydown={handleKeyDown}></lightning-datatable>
+                </template>
+            </lightning-card>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>

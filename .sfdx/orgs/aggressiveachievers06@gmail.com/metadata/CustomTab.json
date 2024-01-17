@@ -1,0 +1,96 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-09-24T13:38:32.000Z",
+      "fileName": "tabs/Salary__c.tab",
+      "fullName": "Salary__c",
+      "id": "01r5j000001TO26AAG",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-09-24T13:38:32.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-09-15T15:01:08.000Z",
+      "fileName": "tabs/Employee__c.tab",
+      "fullName": "Employee__c",
+      "id": "01r5j000001TMuUAAW",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-09-15T15:01:08.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-10-08T08:39:10.000Z",
+      "fileName": "tabs/Bill.tab",
+      "fullName": "Bill",
+      "id": "01r5j000001TQ7TAAW",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-10-08T08:39:10.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-09-20T09:59:43.000Z",
+      "fileName": "tabs/Attendance__c.tab",
+      "fullName": "Attendance__c",
+      "id": "01r5j000001TNR5AAO",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-09-20T09:59:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-10-05T16:16:40.000Z",
+      "fileName": "tabs/Bill__c.tab",
+      "fullName": "Bill__c",
+      "id": "01r5j000001TPsJAAW",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-10-05T16:16:40.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-09-16T04:19:31.000Z",
+      "fileName": "tabs/Supplier__c.tab",
+      "fullName": "Supplier__c",
+      "id": "01r5j000001TMwfAAG",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-09-16T04:19:31.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    },
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-10-05T16:33:35.000Z",
+      "fileName": "tabs/Billing_Product__c.tab",
+      "fullName": "Billing_Product__c",
+      "id": "01r5j000001TPsTAAW",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-10-05T16:33:35.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomTab"
+    }
+  ]
+}

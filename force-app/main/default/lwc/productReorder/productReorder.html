@@ -1,0 +1,53 @@
+<template>
+    <lightning-layout>
+        <lightning-layout-item size="6">
+            <lightning-card title="Product Reorder" icon-name="standard:product">
+                <template if:true={showTable}>
+                    <div>
+                        <template for:each={data} for:item="supplier">
+                            <div key={supplier.supplierId}>
+                                <h1>{supplier.supplierName}</h1>
+                                <lightning-datatable data={supplier.products} columns={reorderColumns} key-field="id"
+                                    onrowaction={handleRowAction} oncellchange={handleQuantityChange}
+                                    hide-checkbox-column></lightning-datatable>
+                            </div>
+                        </template>
+                    </div>
+                    <div class="reorder-container">
+                        <lightning-button label="REORDER" onclick={handleReorder} variant="brand"></lightning-button>
+                    </div>
+                </template>
+                <template if:true={showSuccessMessage}>
+                    <div class="success-message-container">
+                        <div class="success-message">
+                            REORDER PLACED SUCCESSFULLY!!
+                        </div>
+                    </div>
+                </template>
+            </lightning-card>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="6">
+            <lightning-layout multiple-rows>
+                <lightning-layout-item size="12">
+                    <lightning-card title="Product Search" icon-name="standard:product">
+                        <lightning-input type="search" label="Search Product" name="searchInput" class="searchField"
+                            onchange={handleSearch}></lightning-input>
+                    </lightning-card>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="12">
+
+                    <template if:true={allProductsData}>
+                        <lightning-datatable columns={columns} data={allProductsData} key-field="Id"
+                            onrowselection={handleRowSelection} onsave={handleSave} draft-values={draftValues}
+                            data-key="Id"></lightning-datatable>
+                    </template>
+
+                </lightning-layout-item>
+
+            </lightning-layout>
+        </lightning-layout-item>
+
+    </lightning-layout>
+</template>

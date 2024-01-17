@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Greater_than_Retails_Profit</fullName>
+    <active>true</active>
+    <errorConditionFormula>Retail_Profit_Percent__c  &lt;  Wholesale_Profit_Percent__c</errorConditionFormula>
+    <errorDisplayField>Wholesale_Profit_Percent__c</errorDisplayField>
+    <errorMessage>Profit value Enter into the Lessthan RetailSales Profit percentage</errorMessage>
+</ValidationRule>

@@ -1,0 +1,32 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-09-20T16:22:57.000Z",
+      "fileName": "email/Shop_Pulse_Email_Templates",
+      "fullName": "Shop_Pulse_Email_Templates",
+      "id": "00l5j000002RzarAAC",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-09-20T16:22:57.000Z",
+      "manageableState": "unmanaged",
+      "type": "EmailFolder"
+    },
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "unfiled$public",
+      "fullName": "unfiled$public",
+      "id": "",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "namespacePrefix": "",
+      "type": "EmailFolder"
+    }
+  ]
+}

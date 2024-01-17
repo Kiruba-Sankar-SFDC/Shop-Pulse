@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobile_no_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( MobilePhone )
+
+||
+
+NOT(
+REGEX((MobilePhone),&quot;[6-9]{1}[0-9]{9}&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>MobilePhone</errorDisplayField>
+    <errorMessage>Mobile Number should start with 6,7,8,9 and length should be 10 Numbers</errorMessage>
+</ValidationRule>

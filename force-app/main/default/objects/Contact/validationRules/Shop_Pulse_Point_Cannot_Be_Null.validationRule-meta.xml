@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shop_Pulse_Point_Cannot_Be_Null</fullName>
+    <active>true</active>
+    <errorConditionFormula>Shop_Pulse_Points__c == NULL || ISBLANK(Shop_Pulse_Points__c)</errorConditionFormula>
+    <errorMessage>Shop pulse point cannot be null.</errorMessage>
+</ValidationRule>

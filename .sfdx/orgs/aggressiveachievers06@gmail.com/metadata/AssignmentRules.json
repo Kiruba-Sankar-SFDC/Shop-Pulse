@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "assignmentRules/Case.assignmentRules",
+      "fullName": "Case",
+      "id": "",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "AssignmentRules"
+    },
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "assignmentRules/Lead.assignmentRules",
+      "fullName": "Lead",
+      "id": "",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "namespacePrefix": "",
+      "type": "AssignmentRules"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-09-21T06:32:11.000Z",
+      "fileName": "email/Shop_Pulse_Email_Templates/Birthday_Template.email",
+      "fullName": "Shop_Pulse_Email_Templates/Birthday_Template",
+      "id": "00X5j000002NUNvEAO",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-10-11T11:17:22.000Z",
+      "manageableState": "unmanaged",
+      "type": "EmailTemplate"
+    },
+    {
+      "createdById": "0055j000008BOdYAAW",
+      "createdByName": "Aggressive achievers",
+      "createdDate": "2023-09-24T13:27:15.000Z",
+      "fileName": "email/Shop_Pulse_Email_Templates/Attendance_Reminder_Mail.email",
+      "fullName": "Shop_Pulse_Email_Templates/Attendance_Reminder_Mail",
+      "id": "00X5j000002NUTPEA4",
+      "lastModifiedById": "0055j000008BOdYAAW",
+      "lastModifiedByName": "Aggressive achievers",
+      "lastModifiedDate": "2023-09-24T18:21:54.000Z",
+      "manageableState": "unmanaged",
+      "type": "EmailTemplate"
+    }
+  ]
+}
